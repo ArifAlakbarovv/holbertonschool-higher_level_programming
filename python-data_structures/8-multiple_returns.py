@@ -3,7 +3,5 @@ def multiple_returns(sentence):
     if len(sentence) > 0:
         a = len(sentence)
         b = sentence[0]
-        tuple = (a, b)
-        return tuple
-    else:
-        return None
+        return (a, b)
+    return (0, None)
