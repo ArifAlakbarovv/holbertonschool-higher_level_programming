@@ -5,4 +5,5 @@ def multiple_returns(sentence):
         b = sentence[0]
         tuple = (a, b)
         return tuple
-    return None
+    else:
+        return None
