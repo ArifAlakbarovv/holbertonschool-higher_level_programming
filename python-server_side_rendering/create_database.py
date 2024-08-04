@@ -1,7 +1,6 @@
 
 import sqlite3
 
-
 def create_database():
     conn = sqlite3.connect('products.db')
     cursor = conn.cursor()
@@ -21,7 +20,5 @@ def create_database():
     ''')
     conn.commit()
     conn.close()
-
-
 if __name__ == '__main__':
     create_database()
